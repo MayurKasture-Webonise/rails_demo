@@ -1,0 +1,5 @@
+<h4 class='d-flex justify-content-between mb-4'>
+  <span>Create Post</span>
+  <%= link_to 'Back', posts_path, class: 'btn btn-danger mb-4 btn active' %>
+</h4>
+<%= render 'form', post: @post %>

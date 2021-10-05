@@ -1,0 +1,14 @@
+<h4 class='d-flex justify-content-between mb-4'>
+  <span>Posts</span>
+  <%= link_to 'Back', posts_path, class: 'btn btn-danger btn active' %>
+</h4>
+
+<div class="container-fluid">
+    <div class="card">
+        <div class="card-body">
+            <h4 class='card-title'>Edit Your Post</h4>
+            <%= render 'form', post: @post %>                
+        </div>
+    </div>
+</div>
+
